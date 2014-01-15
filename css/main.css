@@ -1,0 +1,112 @@
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+body {
+ background-color: lightgray;
+}
+
+#title-bar {
+	max-width: 800px;
+	margin:0 auto;
+	background-color: #55688a;
+	padding: 40px 0 15px 15px;
+}
+
+
+
+.journal-title {
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.journal-content {
+	margin: 0;
+	padding: 0 20px;
+}
+
+.title-text {
+	color: white;
+	margin: 0;
+}
+
+#container {
+	margin:0 auto;
+	max-width: 800px;
+	padding: 15px;
+}
+
+#left-col{
+	background-color: white;
+	width: 70%;
+	padding: 20px;
+	float:left;
+}
+
+.col-right {
+	background-color: white;
+	width: 20%;
+	padding: 5px;
+	float: right;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.list-header {
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
+	padding: 15px;
+}
+
+.list-header ul{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.list-header li{
+	padding-bottom: 5px;
+}
+
+.list-header ul li {
+	padding: 0;
+}
+
+.metrics {
+	position: fixed;
+	bottom: 0;
+	right: 20%;
+}
+
+#metric-button {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 4px 4px 0 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px 8px 0 8px;
+}
+
+.signups {
+	position: fixed;;
+	top: 0;
+	right: 20%;
+}
+
+#signup-button {
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 0px 0px 4px 4px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px 8px;
+}
