@@ -149,6 +149,13 @@ ul {
 	top: 35%;
 }
 
+.attribution{
+}
+
+.attribution-wrapper {
+	padding: 15px 50px;
+}
+
 #signup-button {
 	background-color: green;
 	color: white;
