@@ -89,7 +89,7 @@ var graphText = ""
 
 function createGraph(){
 	for (i=0;i<titles.length;i++){
-		graphText += "<div style=\"background-color:blue;padding: 4px 0px 4px 5px;color: white; margin:1px; border-radius: 4px; height:20px; width:"+(Math.round(elementTime[i]/totalElapsedTime()*100*2)+25)+
+		graphText += "<div style=\"background:linear-gradient(to right, red, violet, blue);padding: 4px 0px 4px 5px;color: white; margin:1px; border-radius: 0 4px 4px 0; height:20px; width:"+(Math.round(elementTime[i]/totalElapsedTime()*100*2)+25)+
 		"px\">"+ Math.round(elementTime[i]/totalElapsedTime()*100) +"%</div>";
 	};
 };
@@ -102,12 +102,20 @@ function getPercentage(){
 	};
 };
 
-
+//fixing this
 function getPosition(ele) {
-    // yay readability
-    for (var yloc=0; ele != null; yloc += ele.offsetTop, ele = ele.offsetParent);
+	var yloc = 0;
+
+	while (ele !=null){
+		yloc += ele.offsetTop;
+		ele=ele.offsetParent;
+	};
+
+    // for (var yloc=0; ele != null; yloc += ele.offsetTop, ele = ele.offsetParent);
     return yloc;
-}
+};
+
+
 
 signupButton.addEventListener('click', function(){elapsedTime();},true);
 
