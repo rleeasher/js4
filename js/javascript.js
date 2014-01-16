@@ -35,8 +35,8 @@ var totalElapsedTime = function (){
 metricButton.addEventListener('click', function(){
 	alert(scrollPercentage() + "% Viewed \n"
 		+ totalScrolled() + "px Scrolled \n"
-		+ totalTime + "ms elapsed time since button press \n"
-		+ totalElapsedTime() + "total elapsed time in ms \n"
+		+ totalTime + " ms elapsed time since button press \n"
+		+ totalElapsedTime() + " total elapsed time in ms \n"
 		);
 },true);
 

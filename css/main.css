@@ -7,14 +7,33 @@ body {
  background-color: lightgray;
 }
 
-#title-bar {
-	max-width: 800px;
-	margin:0 auto;
+#topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
 	background-color: #55688a;
-	padding: 40px 0 15px 15px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#title-bar {
+	max-width: 950px;
+	margin: 0 auto;
+	height: 22px;
+}
+.header-links {
+	padding: 4px;
+	color: white;
+	float: left;
+	font-size: 10px;
+
 }
 
-
+.headers{
+	display: block;
+	float: right;
+}
 
 .journal-title {
 	margin: 0;
@@ -28,28 +47,45 @@ body {
 }
 
 .title-text {
+	margin:0 auto;
 	color: white;
+	font-weight: normal;
+	font-size: 20px;
 	margin: 0;
+	float: left;
+	display: inline;
 }
 
 #container {
 	margin:0 auto;
-	max-width: 800px;
+	max-width: 900px;
 	padding: 15px;
 }
 
 #left-col{
-	background-color: white;
-	width: 70%;
-	padding: 20px;
+	max-width: 650px;
+	padding: 40px 20px 20px 20px;
 	float:left;
 }
 
-.col-right {
+.article{
 	background-color: white;
-	width: 20%;
-	padding: 5px;
-	float: right;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.col-right {
+	max-width: 150px;
+	padding-top: 60px;
+	float: left;
+	
+}
+
+.aside-wrapper{
+
+	background-color: white;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 ul {
@@ -62,7 +98,7 @@ ul {
 .list-header {
 	font-size: 16px;
 	font-weight: bold;
-	color: blue;
+	color: black;
 	padding: 15px;
 }
 
@@ -81,8 +117,8 @@ ul {
 
 .metrics {
 	position: fixed;
-	bottom: 0;
-	right: 20%;
+	left: -24px;
+	top: 20%;
 }
 
 #metric-button {
@@ -93,20 +129,24 @@ ul {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 4px 8px 0 8px;
+	-webkit-transform: rotate(90deg);
+	box-shadow: 8px 8px 3px #888888;
 }
 
 .signups {
 	position: fixed;;
-	top: 0;
-	right: 20%;
+	left: -28px;
+	top: 35%;
 }
 
 #signup-button {
 	background-color: green;
 	color: white;
 	border: none;
-	border-radius: 0px 0px 4px 4px;
+	border-radius: 4px 4px 0 0;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 4px 8px;
+	padding: 4px 8px 0 8px;
+	-webkit-transform: rotate(90deg);
+	box-shadow: 8px 8px 3px #888888;
 }
