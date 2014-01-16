@@ -17,6 +17,8 @@ body {
 	padding: 10px;
 	box-shadow: 10px 10px 5px #888888;
 }
+
+
 #title-bar {
 	max-width: 950px;
 	margin: 0 auto;
@@ -36,24 +38,25 @@ body {
 }
 
 .journal-title {
+	font-family: Verdana,sans-serif;
 	margin: 0;
-	padding-bottom: 10px;
-	padding-top: 20px;
+	padding:10px;
 }
 
 .journal-content {
 	margin: 0;
-	padding: 0 20px;
+	padding: 10px 20px;
 }
 
 .title-text {
 	margin:0 auto;
 	color: white;
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 15px;
 	margin: 0;
 	float: left;
 	display: inline;
+	text-transform: uppercase;
 }
 
 #container {
@@ -69,14 +72,15 @@ body {
 }
 
 .article{
+	font-family: Verdana, sans-serif;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	margin: 20px;
 	box-shadow: 10px 10px 5px #888888;
 }
 
 .col-right {
-	max-width: 150px;
+	max-width: 200px;
 	padding-top: 60px;
 	float: left;
 	
@@ -89,14 +93,20 @@ body {
 }
 
 ul {
+	font-family: Verdana, sans-serif;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 
 }
 
+.list-small-text{
+	font-size: 12px;
+	font-weight: normal;
+}
+
 .list-header {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: black;
 	padding: 15px;
